@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    
+}
+
+body {
+    background-image: url('../img/dog.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Mudei para cover para garantir que a imagem cubra toda a área */
+}
+
+
+
+/* Efeito de hover para os itens do menu */
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+    .nav-link:hover {
+        color: #007bff; /* Muda a cor do texto ao passar o mouse */
+        text-decoration: underline; /* Opcional: adiciona um sublinhado ao texto */
+    }
+
+.animate-atent {
+    animation: atent 23s ease-out 1s;
+}
+@keyframes atent {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    38% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    55% {
+        animation-timing-function: ease-in;
+        transform: translateX(-20%);
+    }
+
+    72% {
+        animation-timing-function: ease-out;
+        transform: translateX(0);
+    }
+
+    81% {
+        animation-timing-function: ease-in;
+        transform: translateX(-10%);
+    }
+
+    90% {
+        animation-timing-function: ease-out;
+        transform: translateX(0);
+    }
+
+    95% {
+        animation-timing-function: ease-in;
+        transform: translateX(-5%);
+    }
+
+    100% {
+        animation-timing-function: ease-out;
+        transform: translateX(0);
+    }
+}
+
+.animate-atent {
+    animation: atent 10s ease-out 1s;
+    background-color:cornflowerblue;
+}
+
+h1{
+    background-color:white;
+  
+}
+personal{
+    background-color:aliceblue;
+}

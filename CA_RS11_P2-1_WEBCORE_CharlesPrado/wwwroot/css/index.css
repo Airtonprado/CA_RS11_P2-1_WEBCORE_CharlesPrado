@@ -1,0 +1,44 @@
+﻿
+
+/* Estilo para o footer fixar no rodapé */
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Responsividade para o vídeo */
+.video-container {
+    position: center;
+    padding-bottom: 55.55%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background-color: #000;
+}
+
+    .video-container iframe {
+        position: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+th{
+    background-color: aliceblue
+
+
+}
+tr {
+    background-color: aliceblue
+}
+.p {
+    background-color: white;
+}
+.texto{
+    color:black;
+    background-color:white;
+        Background:none
+}
